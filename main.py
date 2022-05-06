@@ -19,11 +19,5 @@ def main():
 	logging.info("Extracting followers")
 	scrapper.scrape_followers()
 
-	# logging.info("Extracting followees")
-	# scrapper.scrape_following()
-
-	# logging.info("Generating unfollowing list. Please check unfollowers text file")
-	# scrapper.generate_unfollowers_list()
-
 if __name__ == '__main__':
 	main()
