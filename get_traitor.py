@@ -12,10 +12,10 @@ class GetTraitor:
 
     def loadfile(self):
 
-        with open(self.previous_day + "_followers_gnauh_cire.txt") as file:
+        with open(self.previous_day + "_followers_johncena.txt") as file:
             item_p = file.read().splitlines()
 
-        with open(self.recent_day + "_followers_gnauh_cire.txt") as file:
+        with open(self.recent_day + "_followers_johncena.txt") as file:
             item_r = file.read().splitlines()
 
         traitor_list = np.setdiff1d(item_r, item_p)
